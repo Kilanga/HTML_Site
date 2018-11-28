@@ -26,7 +26,15 @@ body, html {
     position: absolute;
     bottom: 0;
     left: 16px;
-    animation: bounce 0.5s ease infinite alternate;
+    animation: pulse .75s infinite cubic-bezier(0.66, 0, 0, 1);
+    text-shadow: black 0.5em 0.5em 1em;
+}
+.bottomleft2 {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    width: 100px;
+    color: black;
 }
 
 .middle {
@@ -42,7 +50,5 @@ hr {
     width: 40%;
 }
 
-@keyframes bounce{
-     from {top: 106px;}
-     to   {top: 86px;}
+@keyframes pulse {to {box-shadow: 0 0 150px 5px rgba(169, 68, 66, 0);width:120px;height:120px;}}
 }
