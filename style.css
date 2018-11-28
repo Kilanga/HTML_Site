@@ -24,6 +24,7 @@ body, html {
     position: absolute;
     bottom: 0;
     left: 16px;
+    animation: bounce 1.5s ease infinite alternate;
 }
 
 .middle {
@@ -37,4 +38,9 @@ body, html {
 hr {
     margin: auto;
     width: 40%;
+}
+
+@keyframes bounce{
+     from {top: 106px;}
+     to   {top: 86px;}
 }
