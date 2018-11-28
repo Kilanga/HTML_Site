@@ -24,7 +24,7 @@ body, html {
     position: absolute;
     bottom: 0;
     left: 16px;
-    animation: bounce 1.5s ease infinite alternate;
+    animation: bounce 0.5s ease infinite alternate;
 }
 
 .middle {
