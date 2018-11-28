@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-image:url(images/image_de_fond.png);
+    background-image:url(images/background.jpg);
 }
 
 .bgimg {
