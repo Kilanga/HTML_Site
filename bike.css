@@ -210,12 +210,6 @@
     transform: translateX(250%);
   }
 }
-html,
-body {
-  max-width: 100%;
-  overflow: hidden;
-  background: #fff;
-}
 
 .bike {
   width: 600px;
