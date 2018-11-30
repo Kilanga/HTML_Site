@@ -47,7 +47,9 @@ body, html {
 
 @media only screen and (min-width: 768px) {
     .topnav ul {
-        float:center;
+        display: block;
+        text-align: center;
+        width: 100%;
     }
 }
 .topnav li {
